@@ -11,7 +11,7 @@ import (
 )
 
 type Config struct {
-	Addr string `envconfig:"ADDR" default:":80"`
+	Addr string `envconfig:"PORT"`
 	Live bool   `envconfig:"LIVE"`
 }
 
@@ -41,5 +41,5 @@ func main() {
 		return c.String(http.StatusOK, "Hello, World!")
 	})
 
-	e.Logger.Fatal(e.Start(cfg.Addr))
+	e.Logger.Fatal(e.Start(":" + cfg.Addr))
 }
