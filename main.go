@@ -8,6 +8,7 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 type Config struct {
@@ -36,6 +37,7 @@ func main() {
 	envconfig.MustProcess("web", &cfg)
 
 	e := echo.New()
+	e.Pre(middleware.HTTPSRedirect())
 	e.GET("/*", echo.WrapHandler(http.FileServer(getFileSystem(cfg.Live))))
 	e.GET("/hello", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
