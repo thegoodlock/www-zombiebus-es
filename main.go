@@ -15,7 +15,7 @@ import (
 
 type Config struct {
 	Addr     string `envconfig:"PORT"`
-	Live     bool   `envconfig:"LIVE"`
+	Live     bool   `envconfig:"LIVE" default:"true"`
 	SMTPPass string `envconfig:"SMTP_USER" default:"reservas@zombiebus.es"`
 	SMTPUser string `envconfig:"SMTP_USER" default:"fQbgMFf4Dk6SsS2"`
 }
