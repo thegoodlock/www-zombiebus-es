@@ -403,7 +403,7 @@ body {
     -webkit-transition: .4s linear;
 }
 
-.btn-main:after {
+.btn-bus:after {
     position: absolute;
     content: '';
     width: 20px;
@@ -416,7 +416,7 @@ body {
     -webkit-transition: .4s linear;
 }
 
-.btn-main:before {
+.btn-bus:before {
     position: absolute;
     content: '';
     width: 20px;
@@ -434,8 +434,8 @@ body {
     color: #2A2A2A;
 }
 
-.btn-main:hover:before,
-.btn-main:hover:after {
+.btn-bus:hover:before,
+.btn-bus:hover:after {
     background: #fff;
 }
 
