@@ -43,7 +43,7 @@ func main() {
 	fmt.Println(cfg.Live)
 	e := echo.New()
 	if cfg.Live {
-		e.Pre(middleware.HTTPSRedirect())
+		e.Pre(middleware.HTTPSNonWWWRedirect())
 	}
 
 	e.GET("/*", echo.WrapHandler(http.FileServer(getFileSystem(cfg.Live))))
