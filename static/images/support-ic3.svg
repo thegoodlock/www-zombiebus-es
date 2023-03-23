@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M35.0673 61.8452C50.195 60.3089 61.9999 47.5331 61.9999 32.0001C61.9999 15.4315 48.5685 2.00012 32 2.00012C15.4314 2.00012 2 15.4315 2 32.0001V33.8699" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M31.9994 36.7847C34.6418 36.7847 36.784 34.6426 36.784 32.0001C36.784 29.3577 34.6418 27.2156 31.9994 27.2156C29.357 27.2156 27.2148 29.3577 27.2148 32.0001C27.2148 34.6426 29.357 36.7847 31.9994 36.7847Z" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10" stroke-linecap="square"/>
-<path d="M10.7871 10.7869L16.9779 16.9777" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M53.2123 10.7869L47.0215 16.9777" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M53.2123 53.2134L47.0215 47.0226" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M36.1914 41.9172V49.552" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M28.8431 56.9506C28.8431 59.7394 26.5823 62.0001 23.7936 62.0001C21.0048 62.0001 18.7441 59.7394 18.7441 56.9506V48.8753C18.7441 46.0865 21.0048 43.8258 23.7936 43.8258C26.5823 43.8258 28.8431 46.0865 28.8431 48.8753V56.9506Z" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M32 27.2156V2.02942" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M2 56.9649C2 49.1163 7.93701 44.8215 10.0014 43.5042" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M7.03514 62.0001C9.81597 62.0001 12.0703 59.7458 12.0703 56.965C12.0703 54.1841 9.81597 51.9298 7.03514 51.9298C4.25431 51.9298 2 54.1841 2 56.965C2 59.7458 4.25431 62.0001 7.03514 62.0001Z" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M10.7551 31.9227H2" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
-<path d="M53.2441 31.9227H61.9993" stroke="#FFD100" stroke-width="4" stroke-miterlimit="10"/>
+  <path d="M35.0673 61.8452C50.195 60.3089 61.9999 47.5331 61.9999 32.0001C61.9999 15.4315 48.5685 2.00012 32 2.00012C15.4314 2.00012 2 15.4315 2 32.0001V33.8699" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M31.9994 36.7847C34.6418 36.7847 36.784 34.6426 36.784 32.0001C36.784 29.3577 34.6418 27.2156 31.9994 27.2156C29.357 27.2156 27.2148 29.3577 27.2148 32.0001C27.2148 34.6426 29.357 36.7847 31.9994 36.7847Z" stroke-width="4" stroke-miterlimit="10" stroke-linecap="square" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M10.7871 10.7869L16.9779 16.9777" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M53.2123 10.7869L47.0215 16.9777" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M53.2123 53.2134L47.0215 47.0226" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M36.1914 41.9172V49.552" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M28.8431 56.9506C28.8431 59.7394 26.5823 62.0001 23.7936 62.0001C21.0048 62.0001 18.7441 59.7394 18.7441 56.9506V48.8753C18.7441 46.0865 21.0048 43.8258 23.7936 43.8258C26.5823 43.8258 28.8431 46.0865 28.8431 48.8753V56.9506Z" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M32 27.2156V2.02942" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M2 56.9649C2 49.1163 7.93701 44.8215 10.0014 43.5042" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M7.03514 62.0001C9.81597 62.0001 12.0703 59.7458 12.0703 56.965C12.0703 54.1841 9.81597 51.9298 7.03514 51.9298C4.25431 51.9298 2 54.1841 2 56.965C2 59.7458 4.25431 62.0001 7.03514 62.0001Z" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M10.7551 31.9227H2" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
+  <path d="M53.2441 31.9227H61.9993" stroke-width="4" stroke-miterlimit="10" style="stroke: rgb(255, 255, 255);"/>
 </svg>
