@@ -459,13 +459,14 @@
 
                     <div class="contact-form">
                         <div class="cnt-frm">
-                            <form>
+                            <form id="contact">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="form-group">
                                             <label>Nombre</label>
                                             <div class="inputbx">
-                                                <input type="text" name="" class="form-control" placeholder="Tu nombre">
+                                                <input type="text" name="name" required minlength="5"
+                                                    class="form-control" placeholder="Tu nombre">
                                             </div>
                                         </div>
                                     </div>
@@ -473,7 +474,8 @@
                                         <div class="form-group">
                                             <label>E-mail</label>
                                             <div class="inputbx">
-                                                <input type="text" name="" class="form-control" placeholder="Tu email">
+                                                <input type="email" name="email" class="form-control"
+                                                    placeholder="Tu email">
                                             </div>
                                         </div>
                                     </div>
@@ -481,8 +483,8 @@
                                         <div class="form-group">
                                             <label>Mensaje</label>
                                             <div class="inputbx">
-                                                <textarea class="form-control" rows="4"
-                                                    placeholder="Tu pregunta, duda o sugerencia..."></textarea>
+                                                <textarea class="form-control" name="msg" required minlength="10"
+                                                    rows="4" placeholder="Tu pregunta, duda o sugerencia..."></textarea>
                                             </div>
                                         </div>
                                     </div>

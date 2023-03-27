@@ -143,7 +143,25 @@ $(document).ready(function () {
     /* **** End Banner Slider **** */
 
 
-  $(".vdp-datepicker .today").trigger("click");
+    $("#contact").submit(function(e){
+
+        e.preventDefault();
+        
+        let inputs={};
+        inputs.name = $("input[name='name']",this).val();
+        inputs.email = $("input[name='email']",this).val(); 
+        inputs.msg = $("textarea[name='msg']",this).val(); 
+
+        alert("Formulario temporalmente desahbilitado por favor envie un correo a info@zombiebus.es");
+        return;
+
+        $.post("https://httpbin.org/post", inputs).done(function(data) {
+            alert( "Data Loaded: " + data );
+        });
+    });
+
+
+   $(".vdp-datepicker .today").trigger("click");
 });
 
 
