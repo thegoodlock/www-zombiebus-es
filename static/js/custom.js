@@ -144,20 +144,23 @@ $(document).ready(function () {
 
 
     $("#contact").submit(function(e){
-
         e.preventDefault();
         
         let inputs={};
         inputs.name = $("input[name='name']",this).val();
         inputs.email = $("input[name='email']",this).val(); 
-        inputs.msg = $("textarea[name='msg']",this).val(); 
+        inputs.comment = $("textarea[name='comment']",this).val(); 
+        $("input[name='name']",this).val("");
+        $("input[name='email']",this).val("");
+        $("textarea[name='comment']",this).val("");
 
-        alert("Formulario temporalmente desahbilitado por favor envie un correo a info@zombiebus.es");
-        return;
-
-        $.post("https://httpbin.org/post", inputs).done(function(data) {
-            alert( "Data Loaded: " + data );
+        $.post("/contact", inputs).done(function(data) {
+            alert("Gracias por contactar con nosotros, le responderemos lo antes posible.");
+        }).fail(function() {
+            alert("No hemos podido enviar el mensaje, por favor inténtelo más tarde. Gracias");
         });
+
+        $(this).trigger("reset");
     });
 
 
