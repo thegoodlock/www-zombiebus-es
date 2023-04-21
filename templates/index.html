@@ -1,89 +1,14 @@
-<!DOCTYPE html>
-<html lang="es-ES" prefix="og: https://ogp.me/ns#">
+{{define "title"}}
+Zombie Bus Escape Experience | Escape Room Madrid 
+{{end}}
 
-<head>
+{{define "css"}}
+{{end}}
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Zombie Bus Escape Experience | Escape Room Madrid</title>
-    <meta name="description"
-        content="Zombie Bus Escape Experience en primer escape room de España, en un autobus. Encuéntranos en Parquesur en Leganes, Madrid. ¡Reserva Ahora!" />
-    <meta name="robots" content="follow, index" />
-    <link rel="canonical" href="https://zombiebus.es/" />
-    <meta property="og:locale" content="es_ES" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Zombie Bus Escape Experience | Madrid" />
-    <meta property="og:description"
-        content="Zombie Bus Escape Experience el primer escape de España, en un autobus. Encuéntranos en Parquesur en Leganes, Madrid. ¡Reserva Ahora!." />
-    <meta property="og:url" content="https://zombiebus.es/" />
-    <meta property="og:image" content="https://zombiebus.es/images/meta.png" />
-    <meta property="og:image:secure_url" content="https://zombiebus.es/images/meta.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zombie Bus Escape Experience | Madrid" />
-    <meta name="twitter:description"
-        content="Zombie Bus Escape Experience el primer escape de España, en un autobus. Encuéntranos en Parquesur en Leganes, Madrid. ¡Reserva Ahora!" />
-    <meta name="twitter:image" content="https://zombiebus.es/images/meta.png" />
-
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/images/site.webmanifest">
-    <link rel="shortcut icon" href="/images/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/images/browserconfig.xml">
-    <meta name="theme-color" content="#252525">
-
-
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-</head>
-
-<body>
-    <div class="main-wrpper">
-
-        <div class="back-linebx">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-
-        <div class="inner-main-content">
-            <!-- Header -->
-            <header class="header" id="header">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Logo" /></a>
-                        <a href="#booking" class="btn-head">¡ALISTARME AHORA!</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="NavbarToggle">
-                            <ul class="navbar-nav">
-                                <li><a class="nav-link" href="#booking">Reservas</a></li>
-                                <li><a class="nav-link" href="#contact">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </header>
-            <!-- End Header -->
-
+{{define "body"}}
             <!-- Main Slider -->
             <section class="oblique">
-                <img src="images/shape-img1.png" alt="" class="shape-img1">
+                <img src="/images/shape-img1.png" alt="" class="shape-img1">
                 <!-- Mobile -->
                 <div class="oblique-slider">
                     <div>
@@ -230,7 +155,7 @@
             <!-- End Main Slider -->
 
             <!-- About -->
-            <section class="about-wrp" data-scroll-index="0">
+            <section class="about-wrp" id="about" data-scroll-index="0">
                 <img src="images/shape-img5.png" alt="" class="shape-img1">
                 <div class="container">
                     <div class="abt-row">
@@ -298,6 +223,7 @@
             </section>
             <!-- End About -->
 
+            
             <!-- Support -->
             <section class="support-wrp">
                 <div class="container">
@@ -327,6 +253,63 @@
                 </div>
             </section>
             <!-- End Support -->
+
+            <!-- Kids -->
+            <section class="about-wrp" id="kids" data-scroll-index="0">
+                <div class="container">
+                    <div class="abt-row">
+                        <h1 style="left:1320px !important;">KIDS</h1>
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <div class="abt-img">
+                                    <img src="/images/abt-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-12">
+                                <div class="abt-data">
+                                    <h2>Versión KIDS</h2>
+                                    <h6>Una aventura para los más pequeños</h6>
+
+                                    <p>¿Se acerca el cumpleaños de tu peque y no sabes qué hacer?
+
+                                    <p>Sorprende a <b>los más pequeños (altura minima 1.40m)</b> con una actividad singular parte <b>escape room</b> y parte 
+                                        juego de aventura.</p>
+
+                                    <p>Disponemos de una versión kids, la cual debe ser solicitada al hacer la reserva, 
+                                        en la que uno de nuestros <b>monitores cualificados acompañará al grupo de aventurer@s 
+                                        durante toda la sesión</b>. Nuestro equipo se encargará de que todos los integrantes 
+                                        del grupo entiendan y participen en todas las actividades que suceden dentro del 
+                                        ZombieBus, que no son pocas.</p>
+
+                                    <p>L@s pequeños aventur@s podrán disfrutar de una experiencia divertida y desafiante, 
+                                        en un espacio con decorado único y haciendo uso tanto de elementos tecnológicos 
+                                        como de su coordinación como equipo.</p>
+
+                                   <p>Y para recordar el momento, <b>te mandaremos una fotaza</b> al acabar la actividad,
+                                        directamente al email con el que se hizo la reserva</p>
+
+                                    <p>¿Cuanto dura? Como progenitor o responsable <b>disfrutarás de 45-50min de libertad 
+                                        absoluta</b>. Podrás hacer recados, tomarte un café en silencio o un copazo junto 
+                                        al lago</p>.
+
+                                    <p>¿Qué más puedo hacer? Westfield Parquesur tiene excelentes opciones de 
+                                        cafeterías/pastelerías donde realizar una merienda post-actividad para 
+                                        comentar todo lo que ha sucedido en el ZombieBus.</p>
+
+
+
+                                    <a href="#booking" class="btn-main ">¡ALISTARME AHORA!</a>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/shape-img5.png" alt="" class="shape-img1">
+            </section>
+            <!-- End Kids -->
+
+
 
             <!-- Signup Now -->
             <section class="signup-wrp" id="booking">
@@ -427,9 +410,9 @@
             <!-- End Testimonial -->
 
             <!-- Contact -->
-            <section class="contact-wrp">
+            <section class="contact-wrp"  id="contact">
                 <img src="images/shape-img4.png" alt="" class="shape-img4">
-                <div class="container" id="contact">
+                <div class="container">
                     <h1>¿ALGUNA PREGUNTA</h1>
                     <h2>¿ALGUNA PREGUNTA CADETE?<br> <img src="images/left-line.svg" alt=""> ESCRÍBENOS <img
                             src="images/right-line.svg" alt=""></h2>
@@ -504,52 +487,4 @@
                 </div>
             </section>
             <!-- End Contact -->
-
-            <!-- Footer -->
-            <footer>
-                <div class="footer-top">
-                    <div class="container">
-                        <img src="images/logo.svg" alt="Zombie Bus Escape Experience">
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="copyright">
-                    <p>Copyright © 2023 Zombie Bus S.L.</p>
-                </div>
-            </footer>
-
-
-            <!-- End Footer -->
-        </div>
-    </div>
-
-    <!-- script -->
-    <script async="" defer=""
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqEeTTcxr1wZZ22HAtxawkqktFMPAHnB0&callback=initMap">
-        </script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HQRENJT70S"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-HQRENJT70S');
-    </script>
-
-
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
-    <script src="js/custom.js"></script>
-    <!-- End script -->
-</body>
-
-</html>
+{{end}}

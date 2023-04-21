@@ -163,8 +163,12 @@ $(document).ready(function () {
         $(this).trigger("reset");
     });
 
+    
 
-   $(".vdp-datepicker .today").trigger("click");
+    $(".vdp-datepicker .today").trigger("click");
+    if (window.location.hash == "") {
+        $("header").focus();
+    }
 });
 
 
